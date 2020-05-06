@@ -3,7 +3,7 @@ class Cat {
     this.name = name;
     this.sex = sex;
   }
-  speak: function(){
+  speak(){
     return this.name + " says meow!";
   }
 
@@ -14,7 +14,7 @@ class Dog {
     this.name = name;
     this.sex = sex;
   }
-  speak: function(){
+  speak(){
     return this.name + " says woof!";
   }
 }
@@ -24,7 +24,7 @@ class Bird {
     this.name = name;
     this.sex = sex;
   }
-  speak: function(){
+  speak{
     if(this.name === "male"){
       return this.name + " says squawk!";
     }
