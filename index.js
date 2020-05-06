@@ -25,10 +25,11 @@ class Bird {
     this.sex = sex;
   }
   speak(){
-    if(this.name !== "male"){
-      return this.name + " says squawk!";
+    if(this.name == "male"){
+      return "It's me! " + this.name + ", the parrot!"
     }
-    return "It's me! " + this.name + ", the parrot!"
+    return this.name + " says squawk!";
+    
   }
 
 }
