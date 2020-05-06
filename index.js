@@ -29,7 +29,7 @@ class Bird {
       return "It's me! " + this.name + ", the parrot!"
     }
     return this.name + " says squawk!";
-    
+
   }
 
 }
